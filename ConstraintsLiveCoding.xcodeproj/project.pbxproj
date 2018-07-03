@@ -13,6 +13,10 @@
 		AEB0EBE120EB36D600CBAFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB0EBE020EB36D600CBAFCF /* Assets.xcassets */; };
 		AEB0EBE420EB36D600CBAFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB0EBE220EB36D600CBAFCF /* LaunchScreen.storyboard */; };
 		AEB0EBE720EB36D600CBAFCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBE620EB36D600CBAFCF /* main.m */; };
+		AEB0EBF220EB424600CBAFCF /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBF120EB424600CBAFCF /* KeyboardViewController.m */; };
+		AEB0EBF520EB49C100CBAFCF /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBF420EB49C100CBAFCF /* ViewControllerA.m */; };
+		AEB0EBF820EB49D000CBAFCF /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBF720EB49D000CBAFCF /* ViewControllerB.m */; };
+		AEB0EBFB20EB49DD00CBAFCF /* ViewControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBFA20EB49DD00CBAFCF /* ViewControllerC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		AEB0EBE320EB36D600CBAFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB0EBE520EB36D600CBAFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB0EBE620EB36D600CBAFCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB0EBF020EB424600CBAFCF /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		AEB0EBF120EB424600CBAFCF /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		AEB0EBF320EB49C100CBAFCF /* ViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		AEB0EBF420EB49C100CBAFCF /* ViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		AEB0EBF620EB49D000CBAFCF /* ViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		AEB0EBF720EB49D000CBAFCF /* ViewControllerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		AEB0EBF920EB49DD00CBAFCF /* ViewControllerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
+		AEB0EBFA20EB49DD00CBAFCF /* ViewControllerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +70,20 @@
 		AEB0EBD620EB36D400CBAFCF /* ConstraintsLiveCoding */ = {
 			isa = PBXGroup;
 			children = (
+				AEB0EBDD20EB36D400CBAFCF /* Main.storyboard */,
+				AEB0EBF020EB424600CBAFCF /* KeyboardViewController.h */,
+				AEB0EBF120EB424600CBAFCF /* KeyboardViewController.m */,
+				AEB0EBF320EB49C100CBAFCF /* ViewControllerA.h */,
+				AEB0EBF420EB49C100CBAFCF /* ViewControllerA.m */,
+				AEB0EBF620EB49D000CBAFCF /* ViewControllerB.h */,
+				AEB0EBF720EB49D000CBAFCF /* ViewControllerB.m */,
+				AEB0EBF920EB49DD00CBAFCF /* ViewControllerC.h */,
+				AEB0EBFA20EB49DD00CBAFCF /* ViewControllerC.m */,
+				AEB0EBE020EB36D600CBAFCF /* Assets.xcassets */,
 				AEB0EBD720EB36D400CBAFCF /* AppDelegate.h */,
 				AEB0EBD820EB36D400CBAFCF /* AppDelegate.m */,
 				AEB0EBDA20EB36D400CBAFCF /* ViewController.h */,
 				AEB0EBDB20EB36D400CBAFCF /* ViewController.m */,
-				AEB0EBDD20EB36D400CBAFCF /* Main.storyboard */,
-				AEB0EBE020EB36D600CBAFCF /* Assets.xcassets */,
 				AEB0EBE220EB36D600CBAFCF /* LaunchScreen.storyboard */,
 				AEB0EBE520EB36D600CBAFCF /* Info.plist */,
 				AEB0EBE620EB36D600CBAFCF /* main.m */,
@@ -143,7 +163,11 @@
 			files = (
 				AEB0EBDC20EB36D400CBAFCF /* ViewController.m in Sources */,
 				AEB0EBE720EB36D600CBAFCF /* main.m in Sources */,
+				AEB0EBF520EB49C100CBAFCF /* ViewControllerA.m in Sources */,
 				AEB0EBD920EB36D400CBAFCF /* AppDelegate.m in Sources */,
+				AEB0EBFB20EB49DD00CBAFCF /* ViewControllerC.m in Sources */,
+				AEB0EBF220EB424600CBAFCF /* KeyboardViewController.m in Sources */,
+				AEB0EBF820EB49D000CBAFCF /* ViewControllerB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
