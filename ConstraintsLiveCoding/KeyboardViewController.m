@@ -10,6 +10,7 @@
 
 @interface KeyboardViewController ()
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topConstraint;
 
 
 @end
@@ -19,7 +20,7 @@
 // When start editing textField, the keyboard will be presented.
 - (IBAction)keyboardMovedUp:(id)sender {
 
-
+    self.topConstraint.constant = 0;
 }
 
 @end

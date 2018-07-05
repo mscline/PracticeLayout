@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE529ADE20EE849B002CFA4B /* ViewControllerWithTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AE529ADD20EE849B002CFA4B /* ViewControllerWithTable.m */; };
+		AE529AE120EE85B4002CFA4B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE529AE020EE85B4002CFA4B /* TableViewCell.m */; };
 		AEB0EBD920EB36D400CBAFCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBD820EB36D400CBAFCF /* AppDelegate.m */; };
 		AEB0EBDC20EB36D400CBAFCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0EBDB20EB36D400CBAFCF /* ViewController.m */; };
 		AEB0EBDF20EB36D400CBAFCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB0EBDD20EB36D400CBAFCF /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE529ADC20EE849B002CFA4B /* ViewControllerWithTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithTable.h; sourceTree = "<group>"; };
+		AE529ADD20EE849B002CFA4B /* ViewControllerWithTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithTable.m; sourceTree = "<group>"; };
+		AE529ADF20EE85B4002CFA4B /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		AE529AE020EE85B4002CFA4B /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		AEB0EBD420EB36D400CBAFCF /* ConstraintsLiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstraintsLiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB0EBD720EB36D400CBAFCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEB0EBD820EB36D400CBAFCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +79,10 @@
 				AEB0EBDD20EB36D400CBAFCF /* Main.storyboard */,
 				AEB0EBF020EB424600CBAFCF /* KeyboardViewController.h */,
 				AEB0EBF120EB424600CBAFCF /* KeyboardViewController.m */,
+				AE529ADC20EE849B002CFA4B /* ViewControllerWithTable.h */,
+				AE529ADD20EE849B002CFA4B /* ViewControllerWithTable.m */,
+				AE529ADF20EE85B4002CFA4B /* TableViewCell.h */,
+				AE529AE020EE85B4002CFA4B /* TableViewCell.m */,
 				AEB0EBF320EB49C100CBAFCF /* ViewControllerA.h */,
 				AEB0EBF420EB49C100CBAFCF /* ViewControllerA.m */,
 				AEB0EBF620EB49D000CBAFCF /* ViewControllerB.h */,
@@ -165,9 +175,11 @@
 				AEB0EBE720EB36D600CBAFCF /* main.m in Sources */,
 				AEB0EBF520EB49C100CBAFCF /* ViewControllerA.m in Sources */,
 				AEB0EBD920EB36D400CBAFCF /* AppDelegate.m in Sources */,
+				AE529AE120EE85B4002CFA4B /* TableViewCell.m in Sources */,
 				AEB0EBFB20EB49DD00CBAFCF /* ViewControllerC.m in Sources */,
 				AEB0EBF220EB424600CBAFCF /* KeyboardViewController.m in Sources */,
 				AEB0EBF820EB49D000CBAFCF /* ViewControllerB.m in Sources */,
+				AE529ADE20EE849B002CFA4B /* ViewControllerWithTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
